@@ -9,7 +9,7 @@ import os
 from typing import Dict, Optional
 
 # Add stubs to path for imports
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'stubs'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(__file__)), 'stubs'))
 from frondly_tools import create_escalation
 
 

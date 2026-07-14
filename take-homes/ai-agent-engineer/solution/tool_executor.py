@@ -10,7 +10,7 @@ from typing import Dict, Optional, Tuple
 from datetime import datetime, timedelta
 
 # Add stubs to path for imports
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'stubs'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(__file__)), 'stubs'))
 from frondly_tools import find_customer, get_orders, issue_refund, update_subscription, create_escalation
 from policy_engine import PolicyEngine
 from verification import VerificationManager

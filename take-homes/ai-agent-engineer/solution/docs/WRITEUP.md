@@ -18,4 +18,4 @@ The agent would benefit from more sophisticated entity extraction to better hand
 
 ## AI Tool Disclosure
 
-I used Devin AI for code generation and architecture planning throughout this project. The implementation plan was developed with AI assistance, and I relied on AI for generating the policy engine, intent classifier, and LangGraph workflow code. I manually reviewed and refined all code, particularly the verification logic and escalation handling, to ensure accuracy with the Customer Care Guide. I rejected AI-generated approaches that would have allowed direct LLM tool access, instead implementing the tool wrapper pattern to maintain policy boundaries. The evaluation framework was designed manually to ensure meaningful metrics aligned with the project requirements.
+See [`AI_USE.md`](AI_USE.md) for detailed information about AI tool usage, including what was delegated vs. written manually, and specific cases where AI suggestions were overridden.

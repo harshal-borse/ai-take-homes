@@ -3,3 +3,5 @@ __pycache__/
 .DS_Store
 # Local stub output — should never be committed
 **/outbox/*.jsonl
+/take-homes/ai-agent-engineer/runs
+/take-homes/ai-agent-engineer/solution/runs
